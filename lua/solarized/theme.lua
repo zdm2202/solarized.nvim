@@ -449,11 +449,11 @@ theme.loadPlugins = function()
     -- Options:
 
     -- Disable nvim-tree background
-        if vim.g.solarized_disable_background == true then
-            plugins.NvimTreeNormal =                        { fg = solarized.fg, bg = solarized.none }
-        else
-            plugins.NvimTreeNormal =                        { fg = solarized.fg, bg = solarized.sidebar }
-        end
+        -- if vim.g.solarized_disable_background == true then
+			plugins.NvimTreeNormal =                        { fg = solarized.fg, bg = solarized.none }
+        -- else
+			-- plugins.NvimTreeNormal =                        { fg = solarized.fg, bg = solarized.sidebar }
+        -- end
 
     return plugins
 
