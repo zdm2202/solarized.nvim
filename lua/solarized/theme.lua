@@ -171,13 +171,15 @@ theme.loadEditor = function ()
 		editor.Normal =				{ fg = solarized.fg, bg = solarized.bg } -- normal text and background color
 		editor.SignColumn =			{ fg = solarized.fg, bg = solarized.bg }
     end
-
+	
+	--[[
     -- Remove window split borders
-    if vim.g.solarized_borders == false then
-		editor.VertSplit =				{ fg = solarized.bg }
-    else
+    if vim.g.solarized_borders == true then
 		editor.VertSplit =				{ fg = solarized.border }
+    else
+		editor.VertSplit =				{ fg = solarized.bg }
     end
+	--]]
 
     return editor
 end
