@@ -173,10 +173,10 @@ theme.loadEditor = function ()
     end
 
     -- Remove window split borders
-    if vim.g.solarized_borders == true then
-		editor.VertSplit =				{ fg = solarized.border }
-    else
+    if vim.g.solarized_borders == false then
 		editor.VertSplit =				{ fg = solarized.bg }
+    else
+		editor.VertSplit =				{ fg = solarized.border }
     end
 
     return editor
