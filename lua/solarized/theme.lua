@@ -114,7 +114,7 @@ theme.loadEditor = function ()
 		MoreMsg =				{ fg = solarized.accent },
 		NonText =				{ fg = solarized.disabled },
 		Pmenu =					{ fg = solarized.fg, bg = '#ede7d6' },
-		PmenuSel =				{ fg = solarized.accent, bg = solarized.active },
+		PmenuSel =				{ fg = solarized.accent, bg = '#e8dcb6' },
 		PmenuSbar =				{ fg = solarized.text, bg = solarized.contrast },
 		PmenuThumb =			{ fg = solarized.fg, bg = solarized.accent },
 		Question =				{ fg = solarized.green },
