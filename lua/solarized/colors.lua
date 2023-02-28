@@ -67,7 +67,7 @@ end
 -- Enable contrast sidebars, floating windows and popup menus
 if vim.g.solarized_contrast == false then
     solarized.sidebar = solarized.bg
-    solarized.float = solarized.bg
+    solarized.float = solarized.selection
 else
     solarized.sidebar = solarized.bg_alt
     solarized.float = solarized.bg_alt
